@@ -1,4 +1,4 @@
-# RecallDesk
+﻿# RecallDesk
 ### Context-Aware AI Customer Support Powered by Persistent Memory
 
 <p align="center">
@@ -166,33 +166,33 @@ The platform combines conversational intelligence with customer records, support
 
 ```text
 RecallDesk/
-│
-├── backend/
-│   ├── auth.py
-│   ├── auth_routes.py
-│   ├── create_admin.py
-│   ├── database.py
-│   ├── environment.py
-│   ├── main.py
-│   └── sentiment.py
-│
-├── frontend/
-│   ├── public/
-│   └── src/
-│       ├── App.jsx
-│       ├── CustomerPortal.jsx
-│       ├── App.css
-│       ├── CustomerPortal.css
-│       ├── index.css
-│       └── main.jsx
-│
-├── docs/
-│   └── ARCHITECTURE.md
-│
-├── .env.example
-├── .gitignore
-├── README.md
-└── requirements.txt
+â”‚
+â”œâ”€â”€ backend/
+â”‚   â”œâ”€â”€ auth.py
+â”‚   â”œâ”€â”€ auth_routes.py
+â”‚   â”œâ”€â”€ create_admin.py
+â”‚   â”œâ”€â”€ database.py
+â”‚   â”œâ”€â”€ environment.py
+â”‚   â”œâ”€â”€ main.py
+â”‚   â””â”€â”€ sentiment.py
+â”‚
+â”œâ”€â”€ frontend/
+â”‚   â”œâ”€â”€ public/
+â”‚   â””â”€â”€ src/
+â”‚       â”œâ”€â”€ App.jsx
+â”‚       â”œâ”€â”€ CustomerPortal.jsx
+â”‚       â”œâ”€â”€ App.css
+â”‚       â”œâ”€â”€ CustomerPortal.css
+â”‚       â”œâ”€â”€ index.css
+â”‚       â””â”€â”€ main.jsx
+â”‚
+â”œâ”€â”€ docs/
+â”‚   â””â”€â”€ ARCHITECTURE.md
+â”‚
+â”œâ”€â”€ .env.example
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ README.md
+â””â”€â”€ requirements.txt
 ```
 
 ## Getting Started
@@ -329,3 +329,24 @@ It covers:
   <strong>RecallDesk</strong><br/>
   Remembering every interaction. Improving every support experience.
 </p>
+## Project Screenshots
+
+### Customer Login
+![Customer Login](docs/screenshots/01-customer-login.png)
+
+### Customer Portal
+![Customer Portal](docs/screenshots/02-customer-portal.png)
+
+### AI Support Conversation
+![AI Support Conversation](docs/screenshots/03-ai-support-conversation.png)
+
+### Support Tickets
+![Support Tickets](docs/screenshots/04-support-tickets.png)
+
+### Admin Dashboard
+![Admin Dashboard](docs/screenshots/05-admin-dashboard.png)
+
+### Hindsight Memory Center
+![Hindsight Memory Center](docs/screenshots/06-hindsight-memory-center.png)
+
+
