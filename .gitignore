@@ -1,0 +1,36 @@
+﻿# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+node_modules/
+dist/
+build/
+
+# Backups
+backups/
+frontend_backup/
+
+# Logs
+*.log
+
+# Local code dumps and backup/test files
+AppCode.txt
+backend/*_backup.py
+backend/main_backup.py
+backend/test_*.py
+
+# Windows shortcuts
+*.lnk

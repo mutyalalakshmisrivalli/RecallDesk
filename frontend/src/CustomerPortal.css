@@ -1,0 +1,1871 @@
+
+
+.customer-auth-page {
+
+  min-height: 100vh;
+
+  display: grid;
+
+  place-items: center;
+
+  padding: 24px;
+
+  background: #0b0b13;
+
+  color: #f5f3ff;
+
+  font-family: "DM Sans", sans-serif;
+
+}
+
+
+
+.customer-auth-card {
+
+  width: 100%;
+
+  max-width: 440px;
+
+  padding: 38px;
+
+  border: 1px solid #292638;
+
+  border-radius: 22px;
+
+  background: #14131e;
+
+  box-shadow: 0 24px 80px #0006;
+
+}
+
+
+
+.customer-brand-icon {
+
+  width: 52px;
+
+  height: 52px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 15px;
+
+  background: linear-gradient(135deg, #9875ff, #6541d9);
+
+  color: white;
+
+  font-size: 27px;
+
+  font-weight: 800;
+
+}
+
+
+
+.customer-brand-icon.small {
+
+  width: 40px;
+
+  height: 40px;
+
+  font-size: 21px;
+
+}
+
+
+
+.customer-eyebrow {
+
+  margin: 23px 0 9px;
+
+  color: #a78bfa;
+
+  font-size: 10px;
+
+  font-weight: 800;
+
+  letter-spacing: 1.7px;
+
+}
+
+
+
+.customer-auth-card h1,
+
+.customer-welcome h1 {
+
+  margin: 0;
+
+  font-size: 30px;
+
+  letter-spacing: -1px;
+
+}
+
+
+
+.customer-auth-description {
+
+  color: #a5a0b4;
+
+  line-height: 1.7;
+
+  font-size: 13px;
+
+}
+
+
+
+.customer-auth-tabs {
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  padding: 4px;
+
+  margin: 26px 0;
+
+  background: #0e0d16;
+
+  border-radius: 11px;
+
+}
+
+
+
+.customer-auth-tabs button {
+
+  border: 0;
+
+  padding: 11px;
+
+  border-radius: 8px;
+
+  background: transparent;
+
+  color: #a5a0b4;
+
+  cursor: pointer;
+
+}
+
+
+
+.customer-auth-tabs button.active {
+
+  background: #29233c;
+
+  color: #c4b5fd;
+
+}
+
+
+
+.customer-auth-card label {
+
+  display: block;
+
+  margin: 17px 0 8px;
+
+  font-size: 12px;
+
+  color: #d5d0e2;
+
+}
+
+
+
+.customer-auth-card input,
+
+.customer-chat-form input {
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  border: 1px solid #343044;
+
+  border-radius: 10px;
+
+  padding: 14px;
+
+  background: #0e0d16;
+
+  color: #fff;
+
+  outline: none;
+
+  font: inherit;
+
+}
+
+
+
+.customer-auth-card input:focus,
+
+.customer-chat-form input:focus {
+
+  border-color: #9675ff;
+
+}
+
+
+
+.customer-primary-button {
+
+  width: 100%;
+
+  margin-top: 23px;
+
+  padding: 14px;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  background: linear-gradient(110deg, #8b65f5, #6542d5);
+
+  color: white;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+}
+
+
+
+.customer-primary-button:disabled {
+
+  opacity: 0.6;
+
+  cursor: wait;
+
+}
+
+
+
+.customer-auth-footer {
+
+  margin: 25px 0 0;
+
+  text-align: center;
+
+  color: #777287;
+
+  font-size: 11px;
+
+}
+
+
+
+.customer-error,
+
+.customer-success {
+
+  margin-top: 14px;
+
+  padding: 11px 13px;
+
+  border-radius: 9px;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+
+}
+
+
+
+.customer-error {
+
+  color: #ffaaaa;
+
+  background: #4a202a;
+
+}
+
+
+
+.customer-success {
+
+  color: #9ce8b5;
+
+  background: #183a2a;
+
+}
+
+
+
+.customer-loading {
+
+  min-height: 100vh;
+
+  display: grid;
+
+  place-items: center;
+
+  background: #0b0b13;
+
+  color: #c4b5fd;
+
+  font-family: sans-serif;
+
+}
+
+
+
+.customer-app {
+
+  min-height: 100vh;
+
+  background: #0b0b13;
+
+  color: #f5f3ff;
+
+  font-family: "DM Sans", sans-serif;
+
+}
+
+
+
+.customer-topbar {
+
+  height: 76px;
+
+  padding: 0 7%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  border-bottom: 1px solid #252333;
+
+  background: #11101a;
+
+}
+
+
+
+.customer-brand,
+
+.customer-account {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+}
+
+
+
+.customer-brand strong,
+
+.customer-brand span {
+
+  display: block;
+
+}
+
+
+
+.customer-brand strong {
+
+  font-size: 16px;
+
+}
+
+
+
+.customer-brand span {
+
+  margin-top: 4px;
+
+  color: #9690a6;
+
+  font-size: 9px;
+
+  letter-spacing: 1.2px;
+
+}
+
+
+
+.customer-account {
+
+  gap: 11px;
+
+}
+
+
+
+.customer-user-avatar,
+
+.customer-ai-avatar {
+
+  width: 38px;
+
+  height: 38px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 50%;
+
+  background: #332650;
+
+  color: #c4b5fd;
+
+  font-weight: 800;
+
+}
+
+
+
+.customer-user-info strong,
+
+.customer-user-info span {
+
+  display: block;
+
+}
+
+
+
+.customer-user-info strong {
+
+  font-size: 12px;
+
+}
+
+
+
+.customer-user-info span {
+
+  margin-top: 3px;
+
+  color: #9892a7;
+
+  font-size: 10px;
+
+}
+
+
+
+.customer-logout {
+
+  border: 1px solid #393347;
+
+  border-radius: 8px;
+
+  padding: 9px 13px;
+
+  margin-left: 10px;
+
+  background: transparent;
+
+  color: #c9c3d8;
+
+  cursor: pointer;
+
+}
+
+
+
+.customer-main {
+
+  width: min(900px, 90%);
+
+  margin: 0 auto;
+
+  padding: 55px 0 30px;
+
+}
+
+
+
+.customer-welcome {
+
+  margin-bottom: 28px;
+
+}
+
+
+
+.customer-welcome .customer-eyebrow {
+
+  margin-top: 0;
+
+}
+
+
+
+.customer-welcome h1 {
+
+  font-size: 36px;
+
+}
+
+
+
+.customer-welcome > p:last-child {
+
+  max-width: 620px;
+
+  color: #a5a0b4;
+
+  font-size: 14px;
+
+  line-height: 1.8;
+
+}
+
+
+
+.customer-chat-card {
+
+  overflow: hidden;
+
+  border: 1px solid #302b40;
+
+  border-radius: 18px;
+
+  background: #14131e;
+
+  box-shadow: 0 20px 70px #0003;
+
+}
+
+
+
+.customer-chat-header {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  padding: 20px 24px;
+
+  border-bottom: 1px solid #302b40;
+
+}
+
+
+
+.customer-ai-avatar {
+
+  width: 43px;
+
+  height: 43px;
+
+  background: #38275d;
+
+  font-size: 22px;
+
+}
+
+
+
+.customer-chat-header h2 {
+
+  margin: 0 0 5px;
+
+  font-size: 15px;
+
+}
+
+
+
+.customer-chat-header span {
+
+  color: #a5a0b4;
+
+  font-size: 11px;
+
+}
+
+
+
+.customer-online-dot {
+
+  display: inline-block;
+
+  width: 7px;
+
+  height: 7px;
+
+  margin-right: 7px;
+
+  border-radius: 50%;
+
+  background: #4ade80;
+
+}
+
+
+
+.customer-chat-messages {
+
+  min-height: 390px;
+
+  max-height: 540px;
+
+  overflow-y: auto;
+
+  padding: 24px;
+
+}
+
+
+
+.customer-empty-chat {
+
+  max-width: 440px;
+
+  margin: 55px auto;
+
+  text-align: center;
+
+}
+
+
+
+.customer-empty-icon {
+
+  color: #a78bfa;
+
+  font-size: 38px;
+
+}
+
+
+
+.customer-empty-chat h3 {
+
+  margin-bottom: 8px;
+
+  font-size: 19px;
+
+}
+
+
+
+.customer-empty-chat p {
+
+  color: #a5a0b4;
+
+  font-size: 13px;
+
+  line-height: 1.7;
+
+}
+
+
+
+.customer-suggestions {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 9px;
+
+  margin-top: 22px;
+
+}
+
+
+
+.customer-suggestions button {
+
+  padding: 10px 13px;
+
+  border: 1px solid #45365f;
+
+  border-radius: 20px;
+
+  background: #201b2e;
+
+  color: #c4b5fd;
+
+  cursor: pointer;
+
+  font-size: 11px;
+
+}
+
+
+
+.customer-message {
+
+  max-width: 78%;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+.customer-message.sent {
+
+  margin-left: auto;
+
+}
+
+
+
+.customer-message-label {
+
+  margin-bottom: 7px;
+
+  color: #aaa3bb;
+
+  font-size: 10px;
+
+}
+
+
+
+.customer-message.sent .customer-message-label {
+
+  text-align: right;
+
+}
+
+
+
+.customer-message-bubble {
+
+  padding: 13px 16px;
+
+  border: 1px solid #383147;
+
+  border-radius: 13px;
+
+  background: #211d2d;
+
+  color: #f1edfa;
+
+  font-size: 13px;
+
+  line-height: 1.7;
+
+  white-space: pre-wrap;
+
+  overflow-wrap: anywhere;
+
+}
+
+
+
+.customer-message.sent .customer-message-bubble {
+
+  border-color: #5c4391;
+
+  background: #3b2a5e;
+
+}
+
+
+
+.customer-message-bubble.typing {
+
+  color: #b8a6eb;
+
+  font-style: italic;
+
+}
+
+
+
+.customer-memory-indicator {
+
+  display: block;
+
+  margin-top: 6px;
+
+  color: #a78bfa;
+
+  font-size: 10px;
+
+}
+
+
+
+.chat-error {
+
+  margin: 0 24px 15px;
+
+}
+
+
+
+.customer-chat-form {
+
+  display: flex;
+
+  gap: 10px;
+
+  padding: 17px 20px;
+
+  border-top: 1px solid #302b40;
+
+}
+
+
+
+.customer-chat-form input {
+
+  min-width: 0;
+
+  flex: 1;
+
+}
+
+
+
+.customer-chat-form button {
+
+  padding: 0 20px;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  background: #7955dc;
+
+  color: white;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+}
+
+
+
+.customer-chat-form button:disabled {
+
+  opacity: 0.5;
+
+  cursor: not-allowed;
+
+}
+
+
+
+.customer-chat-form button span {
+
+  margin-left: 8px;
+
+}
+
+
+
+.customer-chat-note {
+
+  margin: 0;
+
+  padding: 0 20px 16px;
+
+  color: #817b91;
+
+  font-size: 10px;
+
+}
+
+
+
+.customer-footer {
+
+  padding: 30px 0 10px;
+
+  text-align: center;
+
+  color: #777287;
+
+  font-size: 11px;
+
+}
+
+
+
+@media (max-width: 600px) {
+
+  .customer-auth-card {
+
+    padding: 25px;
+
+  }
+
+
+
+  .customer-topbar {
+
+    height: auto;
+
+    min-height: 70px;
+
+    padding: 12px 5%;
+
+  }
+
+
+
+  .customer-user-info {
+
+    display: none;
+
+  }
+
+
+
+  .customer-logout {
+
+    margin-left: 0;
+
+  }
+
+
+
+  .customer-main {
+
+    width: 92%;
+
+    padding-top: 35px;
+
+  }
+
+
+
+  .customer-welcome h1 {
+
+    font-size: 29px;
+
+  }
+
+
+
+  .customer-chat-messages {
+
+    min-height: 350px;
+
+    padding: 16px;
+
+  }
+
+
+
+  .customer-message {
+
+    max-width: 92%;
+
+  }
+
+
+
+  .customer-chat-form {
+
+    padding: 12px;
+
+  }
+
+
+
+  .customer-chat-form button {
+
+    padding: 0 13px;
+
+  }
+
+}
+
+/* =========================================
+
+   CUSTOMER TICKET RESOLUTION
+
+   ========================================= */
+
+
+
+.customer-resolution-card {
+
+  margin: 18px 0 24px auto;
+
+  max-width: 520px;
+
+  padding: 20px;
+
+  border: 1px solid #514071;
+
+  border-radius: 15px;
+
+  background: linear-gradient(145deg, #211b32, #171522);
+
+}
+
+
+
+.customer-resolution-card h3 {
+
+  margin: 0 0 8px;
+
+  color: #e9ddff;
+
+  font-size: 15px;
+
+}
+
+
+
+.customer-resolution-card p {
+
+  margin: 0 0 15px;
+
+  color: #aaa0bd;
+
+  font-size: 12px;
+
+  line-height: 1.7;
+
+}
+
+
+
+.customer-resolution-actions {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 10px;
+
+}
+
+
+
+.customer-resolution-actions button {
+
+  padding: 10px 15px;
+
+  border: 1px solid #57447b;
+
+  border-radius: 9px;
+
+  background: #302342;
+
+  color: #e4d7ff;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+}
+
+
+
+.customer-resolution-actions button:first-child {
+
+  border-color: #287a53;
+
+  background: #183b2b;
+
+  color: #a7f3c5;
+
+}
+
+
+
+.customer-resolution-actions button:disabled {
+
+  opacity: 0.5;
+
+  cursor: wait;
+
+}
+
+
+
+.customer-resolution-status {
+
+  margin-top: 13px;
+
+  padding: 11px;
+
+  border-radius: 9px;
+
+  background: #183a2a;
+
+  color: #9ce8b5;
+
+  font-size: 12px;
+
+  line-height: 1.5;
+
+}
+
+
+
+.customer-resolution-error {
+
+  margin-top: 13px;
+
+  color: #ffaaaa;
+
+  font-size: 12px;
+
+}
+
+
+
+@media (max-width: 600px) {
+
+  .customer-resolution-card {
+
+    max-width: 100%;
+
+    padding: 16px;
+
+  }
+
+
+
+  .customer-resolution-actions {
+
+    flex-direction: column;
+
+  }
+
+
+
+  .customer-resolution-actions button {
+
+    width: 100%;
+
+  }
+
+}
+
+
+
+.customer-ticket-indicator {
+
+  display: inline-block;
+
+  margin-top: 8px;
+
+  padding: 7px 11px;
+
+  border: 1px solid #514071;
+
+  border-radius: 8px;
+
+  background: #211b32;
+
+  color: #c4b5fd;
+
+  font-size: 11px;
+
+}
+
+
+/* =========================================
+   RECALLDESK CUSTOMER PORTAL - RESPONSIVE FIX
+   Added: mobile, tablet and small-screen layouts
+   ========================================= */
+
+* {
+  box-sizing: border-box;
+}
+
+.customer-app,
+.customer-auth-page {
+  width: 100%;
+  min-width: 0;
+  overflow-x: hidden;
+}
+
+.customer-topbar,
+.customer-main,
+.customer-chat-card,
+.customer-chat-header,
+.customer-chat-messages,
+.customer-chat-form {
+  min-width: 0;
+}
+
+.customer-message-bubble,
+.customer-resolution-card,
+.customer-user-info,
+.customer-brand {
+  overflow-wrap: anywhere;
+}
+
+.customer-chat-form input {
+  min-width: 0;
+}
+
+.customer-chat-form button {
+  flex: 0 0 auto;
+  min-height: 46px;
+}
+
+.customer-chat-messages {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+.customer-chat-form input,
+.customer-auth-card input,
+.customer-chat-form button,
+.customer-auth-tabs button,
+.customer-primary-button,
+.customer-logout,
+.customer-suggestions button,
+.customer-resolution-actions button {
+  min-height: 44px;
+}
+
+@media (max-width: 768px) {
+  .customer-topbar {
+    height: auto;
+    min-height: 68px;
+    padding: 12px 4%;
+    gap: 10px;
+  }
+
+  .customer-brand {
+    gap: 9px;
+  }
+
+  .customer-brand strong {
+    font-size: 14px;
+  }
+
+  .customer-brand span {
+    font-size: 8px;
+    letter-spacing: 0.8px;
+  }
+
+  .customer-account {
+    gap: 8px;
+  }
+
+  .customer-main {
+    width: 94%;
+    padding: 30px 0 24px;
+  }
+
+  .customer-welcome {
+    margin-bottom: 22px;
+  }
+
+  .customer-welcome h1 {
+    font-size: clamp(25px, 5vw, 32px);
+    line-height: 1.2;
+  }
+
+  .customer-welcome > p:last-child {
+    font-size: 13px;
+  }
+
+  .customer-chat-header {
+    padding: 16px;
+  }
+
+  .customer-chat-messages {
+    min-height: 320px;
+    max-height: min(58vh, 500px);
+    padding: 16px;
+  }
+
+  .customer-message {
+    max-width: 88%;
+  }
+
+  .customer-chat-form {
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .customer-chat-form button {
+    padding: 0 14px;
+  }
+
+  .customer-chat-note {
+    padding: 0 12px 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .customer-auth-page {
+    min-height: 100svh;
+    padding: 16px;
+  }
+
+  .customer-auth-card {
+    max-width: 100%;
+    padding: 24px 20px;
+    border-radius: 18px;
+  }
+
+  .customer-auth-card h1 {
+    font-size: 26px;
+  }
+
+  .customer-topbar {
+    min-height: 62px;
+    padding: 10px 12px;
+  }
+
+  .customer-brand-icon.small {
+    width: 36px;
+    height: 36px;
+    font-size: 19px;
+  }
+
+  .customer-brand strong {
+    font-size: 13px;
+  }
+
+  .customer-brand span {
+    display: none;
+  }
+
+  .customer-user-avatar {
+    width: 34px;
+    height: 34px;
+  }
+
+  .customer-logout {
+    padding: 8px 10px;
+    font-size: 11px;
+  }
+
+  .customer-main {
+    width: calc(100% - 24px);
+    padding: 24px 0 18px;
+  }
+
+  .customer-welcome h1 {
+    font-size: 26px;
+  }
+
+  .customer-welcome > p:last-child {
+    font-size: 12px;
+    line-height: 1.65;
+  }
+
+  .customer-chat-card {
+    border-radius: 14px;
+  }
+
+  .customer-chat-header {
+    gap: 10px;
+    padding: 13px;
+  }
+
+  .customer-ai-avatar {
+    width: 38px;
+    height: 38px;
+    font-size: 19px;
+    flex: 0 0 38px;
+  }
+
+  .customer-chat-header h2 {
+    font-size: 13px;
+  }
+
+  .customer-chat-header span {
+    font-size: 10px;
+  }
+
+  .customer-chat-messages {
+    min-height: 300px;
+    max-height: 52vh;
+    padding: 12px;
+  }
+
+  .customer-message {
+    max-width: 94%;
+    margin-bottom: 15px;
+  }
+
+  .customer-message-bubble {
+    padding: 11px 13px;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .customer-chat-form {
+    align-items: stretch;
+    gap: 7px;
+    padding: 10px;
+  }
+
+  .customer-chat-form input {
+    width: 0;
+    min-width: 0;
+    flex: 1 1 auto;
+    padding: 11px;
+    font-size: 13px;
+  }
+
+  .customer-chat-form button {
+    min-width: 48px;
+    padding: 0 11px;
+    font-size: 12px;
+  }
+
+  .customer-chat-form button span {
+    display: none;
+  }
+
+  .customer-chat-note {
+    font-size: 9px;
+    line-height: 1.5;
+  }
+
+  .customer-suggestions {
+    gap: 7px;
+  }
+
+  .customer-suggestions button {
+    max-width: 100%;
+    padding: 9px 11px;
+    font-size: 10px;
+  }
+
+  .customer-resolution-card {
+    margin: 14px 0 18px;
+    padding: 14px;
+  }
+
+  .customer-resolution-actions {
+    flex-direction: column;
+  }
+
+  .customer-resolution-actions button {
+    width: 100%;
+  }
+
+  .customer-footer {
+    padding: 22px 0 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .customer-account {
+    gap: 6px;
+  }
+
+  .customer-logout {
+    padding: 7px 8px;
+    font-size: 10px;
+  }
+
+  .customer-brand {
+    gap: 7px;
+  }
+
+  .customer-brand strong {
+    font-size: 12px;
+  }
+
+  .customer-chat-form {
+    gap: 6px;
+    padding: 8px;
+  }
+
+  .customer-chat-form button {
+    min-width: 44px;
+    padding: 0 9px;
+  }
+}
+
+/* ===== CHAT HISTORY UI FIX ===== */
+
+.customer-history-panel {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 24px;
+  padding: 22px;
+  border: 1px solid #302b40;
+  border-radius: 18px;
+  background: #14131e;
+  box-shadow: 0 12px 35px #0002;
+  overflow: hidden;
+}
+
+.customer-history-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.customer-history-heading h2 {
+  margin: 0;
+  color: #f5f3ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.customer-history-heading p {
+  margin: 6px 0 0;
+  color: #9690a6;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.customer-new-chat {
+  flex-shrink: 0;
+  padding: 10px 16px;
+  border: 1px solid #7655d6;
+  border-radius: 9px;
+  background: #332650;
+  color: #e4dcff;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.customer-new-chat:hover {
+  background: #493477;
+  transform: translateY(-1px);
+}
+
+.customer-history-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  max-height: 310px;
+  overflow-y: auto;
+  padding: 2px 5px 2px 2px;
+}
+
+.customer-history-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 9px;
+  width: 100%;
+  min-width: 0;
+  min-height: 82px;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  border: 1px solid #302b40;
+  border-radius: 12px;
+  background: #0e0d16;
+  color: #f5f3ff;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.customer-history-item:hover {
+  border-color: #7655d6;
+  background: #1b1728;
+}
+
+.customer-history-item.active {
+  border-color: #9875ff;
+  background: #211a35;
+  box-shadow: inset 3px 0 0 #9875ff;
+}
+
+.customer-history-item strong {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  color: #eee9ff;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.customer-history-item span {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  color: #9690a6;
+  font-size: 10px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.customer-history-empty,
+.customer-history-error {
+  padding: 12px;
+  border-radius: 9px;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.customer-history-empty {
+  color: #aaa3bd;
+  background: #0e0d16;
+}
+
+.customer-history-error {
+  color: #ffaaaa;
+  background: #4a202a;
+}
+
+.customer-history-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.customer-history-list::-webkit-scrollbar-track {
+  background: #0e0d16;
+  border-radius: 10px;
+}
+
+.customer-history-list::-webkit-scrollbar-thumb {
+  background: #514071;
+  border-radius: 10px;
+}
+
+@media (max-width: 650px) {
+  .customer-history-panel {
+    padding: 16px;
+    margin-bottom: 18px;
+    border-radius: 14px;
+  }
+
+  .customer-history-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .customer-new-chat {
+    width: 100%;
+  }
+
+  .customer-history-list {
+    grid-template-columns: 1fr;
+    max-height: 280px;
+  }
+
+  .customer-history-item {
+    min-height: 72px;
+  }
+}
+
+
+/* =====================================
+   CHATGPT STYLE CUSTOMER SIDEBAR
+===================================== */
+
+.customer-topbar {
+  position: relative;
+  z-index: 30;
+}
+
+.customer-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.customer-sidebar-toggle {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 40px;
+  border: 1px solid #343044;
+  border-radius: 9px;
+  background: #191724;
+  color: #e9e3ff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.customer-sidebar-toggle:hover {
+  background: #302747;
+  border-color: #7655c9;
+}
+
+.customer-workspace {
+  display: flex;
+  min-height: calc(100vh - 76px);
+  position: relative;
+}
+
+.customer-sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 280px;
+  width: 280px;
+  box-sizing: border-box;
+  padding: 20px 14px;
+  background: #11101a;
+  border-right: 1px solid #292638;
+  overflow: hidden;
+  transition: width 0.25s ease, flex-basis 0.25s ease;
+}
+
+.customer-sidebar.closed {
+  flex-basis: 0;
+  width: 0;
+  padding-left: 0;
+  padding-right: 0;
+  border: 0;
+}
+
+.customer-sidebar .customer-new-chat {
+  width: 100%;
+  min-height: 44px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+
+.customer-sidebar-title {
+  margin: 0 0 13px 8px;
+  color: #a78bfa;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  white-space: nowrap;
+}
+
+.customer-sidebar .customer-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  max-height: none;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0 3px 10px;
+}
+
+.customer-sidebar .customer-history-item {
+  min-height: 68px;
+  padding: 11px;
+  gap: 6px;
+  border-radius: 9px;
+  background: transparent;
+  border-color: transparent;
+}
+
+.customer-sidebar .customer-history-item:hover {
+  background: #211c30;
+  transform: none;
+}
+
+.customer-sidebar .customer-history-item.active {
+  background: #29213e;
+  border-color: #514071;
+}
+
+.customer-sidebar .customer-history-item strong {
+  font-size: 12px;
+  -webkit-line-clamp: 2;
+}
+
+.customer-sidebar .customer-history-item span {
+  font-size: 10px;
+}
+
+.customer-sidebar-footer {
+  padding: 15px 5px 3px;
+  border-top: 1px solid #292638;
+  color: #777287;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.customer-workspace .customer-main {
+  flex: 1;
+  min-width: 0;
+  width: auto;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 45px 24px 30px;
+  box-sizing: border-box;
+}
+
+.customer-sidebar-backdrop {
+  display: none;
+}
+
+/* Mobile sidebar */
+@media (max-width: 700px) {
+  .customer-workspace .customer-sidebar {
+    position: fixed;
+    z-index: 25;
+    top: 76px;
+    bottom: 0;
+    left: 0;
+    width: min(290px, 85vw);
+    flex: none;
+    box-shadow: 15px 0 40px #0006;
+  }
+
+  .customer-workspace .customer-sidebar.closed {
+    display: none;
+  }
+
+  .customer-sidebar-backdrop {
+    display: block;
+    position: fixed;
+    z-index: 20;
+    top: 76px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border: 0;
+    background: #0009;
+  }
+
+  .customer-workspace .customer-main {
+    width: 100%;
+    padding: 30px 16px 24px;
+  }
+
+  .customer-topbar {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .customer-topbar-left {
+    gap: 9px;
+  }
+}
+
+@media (max-width: 420px) {
+  .customer-user-info {
+    display: none;
+  }
+
+  .customer-sidebar-toggle {
+    width: 36px;
+    height: 36px;
+    flex-basis: 36px;
+  }
+}
