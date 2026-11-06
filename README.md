@@ -166,33 +166,33 @@ The platform combines conversational intelligence with customer records, support
 
 ```text
 RecallDesk/
-â”‚
-â”œâ”€â”€ backend/
-â”‚   â”œâ”€â”€ auth.py
-â”‚   â”œâ”€â”€ auth_routes.py
-â”‚   â”œâ”€â”€ create_admin.py
-â”‚   â”œâ”€â”€ database.py
-â”‚   â”œâ”€â”€ environment.py
-â”‚   â”œâ”€â”€ main.py
-â”‚   â””â”€â”€ sentiment.py
-â”‚
-â”œâ”€â”€ frontend/
-â”‚   â”œâ”€â”€ public/
-â”‚   â””â”€â”€ src/
-â”‚       â”œâ”€â”€ App.jsx
-â”‚       â”œâ”€â”€ CustomerPortal.jsx
-â”‚       â”œâ”€â”€ App.css
-â”‚       â”œâ”€â”€ CustomerPortal.css
-â”‚       â”œâ”€â”€ index.css
-â”‚       â””â”€â”€ main.jsx
-â”‚
-â”œâ”€â”€ docs/
-â”‚   â””â”€â”€ ARCHITECTURE.md
-â”‚
-â”œâ”€â”€ .env.example
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ README.md
-â””â”€â”€ requirements.txt
+|-- backend/
+|   |-- auth.py
+|   |-- auth_routes.py
+|   |-- create_admin.py
+|   |-- database.py
+|   |-- environment.py
+|   |-- main.py
+|   |-- sentiment.py
+|
+|-- frontend/
+|   |-- public/
+|   |-- src/
+|       |-- App.jsx
+|       |-- CustomerPortal.jsx
+|       |-- App.css
+|       |-- CustomerPortal.css
+|       |-- index.css
+|       |-- main.jsx
+|
+|-- docs/
+|   |-- ARCHITECTURE.md
+|   |-- screenshots/
+|
+|-- .env.example
+|-- .gitignore
+|-- README.md
+|-- requirements.txt
 ```
 
 ## Getting Started
